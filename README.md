@@ -30,9 +30,7 @@ Com o botão **Refresh**, o usuário atualiza manualmente a cotação, visualiza
 
 ### 1. Modelagem dos dados (`TickerResponse.kt`)
 
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/465ab3af-45b3-41c5-9c47-da79b0b69231)" alt="Código - TickerResponse" />
-</p>
+![image](https://github.com/user-attachments/assets/986f2226-603c-435e-9a0f-a24e4c804983)
 
 Criação da estrutura de dados para representar a resposta da API.
 
@@ -40,9 +38,7 @@ Criação da estrutura de dados para representar a resposta da API.
 
 ### 2. Interface de comunicação (`MercadoBitcoinService.kt`)
 
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/610f63df-a689-4028-8756-9aec9267b529)" alt="Código - MercadoBitcoinService" />
-</p>
+ ![image](https://github.com/user-attachments/assets/610f63df-a689-4028-8756-9aec9267b529)
 
 Definição do método HTTP GET para buscar o ticker do Bitcoin.
 
@@ -50,9 +46,7 @@ Definição do método HTTP GET para buscar o ticker do Bitcoin.
 
 ### 3. Fábrica de Serviço (`MercadoBitcoinServiceFactory.kt`)
 
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/941badaf-6abd-4be9-b388-d15ce1529d4a)" alt="Código - MercadoBitcoinServiceFactory" />
-</p>
+![image](https://github.com/user-attachments/assets/941badaf-6abd-4be9-b388-d15ce1529d4a)
 
 Criação e configuração do Retrofit para chamadas de rede.
 
@@ -60,9 +54,7 @@ Criação e configuração do Retrofit para chamadas de rede.
 
 ### 4. Configuração Inicial (`MainActivity.kt` - Parte 1)
 
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/75e9c1f9-b6b5-4f55-aac3-d4ab37e15da7)" alt="Código - MainActivity Parte 1" />
-</p>
+![image](https://github.com/user-attachments/assets/75e9c1f9-b6b5-4f55-aac3-d4ab37e15da7)
 
 Inicialização da Toolbar e do botão Refresh.
 
@@ -70,9 +62,7 @@ Inicialização da Toolbar e do botão Refresh.
 
 ### 5. Chamada da API e atualização da UI (`MainActivity.kt` - Parte 2)
 
-<p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/e5791949-1b60-45cb-9a0b-0c8848c7b729)" alt="Código - MainActivity Parte 2" />
-</p>
+![image](https://github.com/user-attachments/assets/e5791949-1b60-45cb-9a0b-0c8848c7b729)
 
 Execução da chamada assíncrona para obter dados da API e atualização dos elementos visuais.
 
